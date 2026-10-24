@@ -1,0 +1,15 @@
+package ru.netology.order_service.model;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OrderItem {
+    private String productName;
+    private Integer quantity;
+    private Double price;
+}
